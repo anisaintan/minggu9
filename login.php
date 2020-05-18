@@ -1,19 +1,21 @@
-<?php
-	session_start();
-	if (isset ($_SESSION ['username'])) {
-		header("Location: index.php");
-	}
-	require "conn.php";
-?>
+<?php 
+	include 'conn.php'; 
+	include 'conf.php'; 
+?> 
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
+
 <html>
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>  
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css"> 
 </head>
-<body>
-
+<body>  
+	<div class="top-gray"></div>
+	<div class="header">
+		<div class="big-logo">SELAMAT DATANG</div>   
+		<?php include 'menu.php';?>
+	</div>
 	<h1>SELAMAT DATANG! </h1></br>
 	<center><h3/></br>SILAHKAN MASUK TERLEBIH DAHULU</h3></center>
 

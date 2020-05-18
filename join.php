@@ -1,11 +1,22 @@
-<!DOCTYPE html>
+<?php 
+	include 'conn.php'; 
+	include 'conf.php'; 
+?> 
+
+<!DOCTYPE html> 
+
 <html>
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>  
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css"> 
 </head>
-<body>
-	<h1>INI ADALAH HALAMAN UNTUK MEMBUAT AKUN </h1>
+<body>  
+	<div class="top-gray"></div>
+	<div class="header">
+		<div class="big-logo">SILAHKAN MENDAFTAR</div>   
+		<?php include 'menu.php';?>
+	</div>
+	
 <div class="kotak_login">
 		<p class="tulisan_login">DAFTAR</p>
 
@@ -20,7 +31,7 @@
 			<a href="login.php"><input type="submit" class="tombol_login" value="DAFTAR"></input></a>
 			</br>
 			<center>
-				<a class="link" href="login.php">klik di sini untuk kembali</a>
+				<a class="link" href="home.php">klik di sini untuk kembali</a>
 			</center>
 		</form>
 </div>

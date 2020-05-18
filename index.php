@@ -16,7 +16,7 @@ include 'conf.php';
 
 	<title>Halaman Beranda</title>
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
 
 </head>
 
